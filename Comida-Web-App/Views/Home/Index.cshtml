@@ -1,0 +1,70 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="/Content/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/custom/shared.css" rel="stylesheet" type="text/css" />
+
+    <title>Index</title>
+</head>
+<body>
+
+    <!-- Fixed topbar -->
+    <div class="custom-top-bar">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="col-sm-1 col-sm-offset-10">
+                    <a id="registerLink" href="/Account/Register">Register</a>
+                </div>
+                <div class="col-sm-1">
+                    <a id="signInLink" href="/Account/Login">SignIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed navbarr -->
+    <div class="custom-nav-bar">
+        <nav class="navbar navbar-inverse navbar-fixed">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Comida</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">Browse recepes</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../navbar/">Search</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+
+</body>
+</html>

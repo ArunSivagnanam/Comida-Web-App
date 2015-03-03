@@ -1,0 +1,61 @@
+﻿
+div.custom-top-bar .container-fluid {
+         background-color: 	#005229;
+         color:white;
+         padding-right: 0px;
+         padding-left: 0px;
+         margin-right: 0px;
+         margin-left: 0px;
+         border-radius: 0 !important;
+         border-style: none;
+} 
+
+div.custom-nav-bar .navbar {
+         padding-right: 0px;
+         padding-left: 0px;
+         margin-right: 0px;
+         margin-left: 0px;
+         border-radius: 0 !important;
+         background-color: 	#00A352;
+         border-style: none;
+         color:white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar .nav > li > a {
+    color:  white;
+}
+
+.navbar .nav .active a {
+    background-color: 	#008F47;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li.active > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li.active > a:focus, .navbar-inverse .navbar-nav > li > a:active {
+    background-color: #007A3D;
+    color: white;
+    
+}
+
+#registerLink, registerLink:hover {
+    color:white;
+}
+
+#signInLink, signInLink:hover {
+    color:white;
+}
+
+#signIn
+{
+    border-radius: 0px;
+    background-color: #00A352;
+}
+
+#RegisterButton
+{
+    border-radius: 0px;
+    background-color: #00A352;
+}
